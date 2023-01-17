@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background-color: teal;
+}
+li {
+  cursor: pointer;
+}
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+td,
+th {
+  border: 1px solid white;
+  padding: 10px;
+}
+.cancel {
+  background-color: #fd1014;
+  color: #fff;
+}
+.save {
+  background-color: greenyellow;
+}
+button {
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.edit {
+  background-color: #feca57;
+  color: #fff;
+}
+.error {
+  border: 2px solid red;
+}
